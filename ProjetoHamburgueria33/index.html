@@ -1,0 +1,1228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="images/logo.jpeg">
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Hamburgueria Do Chef</title>
+  <meta name="title" content="Grilli - Amazing & Delicious Food">
+  <meta name="description" content="This is a Restaurant html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/gallery1.jpeg">
+  <link rel="preload" as="image" href="./assets/images/slide1.jpeg">
+  <link rel="preload" as="image" href="./assets/images/slide1.jpeg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">Chef</p>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #TOP BAR
+  -->
+
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">
+          Hamburgueria Do Chef, Rua dos anjos 1570, Gravataí 
+        </span>
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">Atendimento: 18.00 até 23:00</span>
+      </div>
+
+      <a href="tel:+55519234980" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">+55 51 3456 7890</span>
+      </a>
+
+      <div class="separator"></div>
+
+      <a href="mailto:booking@restaurant.com" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">hamburgueriadochef@gmajl.com</span>
+      </a>
+
+    </div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.jpeg" width="160" height="50" alt="Grilli - Home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.svg" width="160" height="50" alt="Grilli - Home">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span">Home</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#menu" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Menu</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Sobre nos</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="carrinho.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Menu Principal</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#reserva" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Contato</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="text-center">
+          <p class="headline-1 navbar-title">Visita as</p>
+
+          <address class="body-4">
+            Hamburgueria Do Chef <br>
+            Rua dos anjos 1570, Gravataí 
+          </address>
+
+          <p class="body-4 navbar-text">Abre: 18h30 - 23h00</p>
+
+          <a href="mailto:booking@grilli.com" class="body-4 sidebar-link">booking@grilli.com</a>
+
+          <div class="separator"></div>
+
+          <p class="contact-label">Booking Request</p>
+
+          <a href="tel:+5551132456" class="body-1 contact-number hover-underline">
+            +55-51-231235
+          </a>
+        </div>
+
+      </nav>
+
+      <a href="cadastro.html" class="btn btn-secondary">
+        <span class="text text-1">Cadastrar</span>
+
+        <span class="text text-2" aria-hidden="true">Cadastrar</span>
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero text-center" aria-label="home" id="home">
+
+        <ul class="hero-slider" data-hero-slider>
+
+          <li class="slider-item active" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/slide1.jpeg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Tradicional & Higiênicos</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Hamburgueres Deliciosos <br>
+              Venha provar 
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Venha com sua família e amigos e aproveite o máximo 
+            </p>
+
+            <a href="carrinho.html" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Ver Outro Menu</span>
+
+              <span class="text text-2" aria-hidden="true">Ver Outro Menu</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/slide2.jpeg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">delightful experience</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Lanches Inspirados<br>
+              Pelos Clientes
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Venha com a família e experimente nossos lanches.
+            </p>
+
+            <a href="carrinho.html" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Vizualizar Todo Menu</span>
+
+              <span class="text text-2" aria-hidden="true">Vizualizar todo menu</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/slide3.jpeg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Incrivel & Deliciosos</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Todos os lanches <br>
+              tem sua história 
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Venha com a família e experimente nossos lanches
+            </p>
+
+            <a href="carrinho.html" class="btn btn-primary slider-reveal">
+              <span class="text text-1">Vizualizar Menu</span>
+
+              <span class="text text-2" aria-hidden="true">Vizualizar Menu</span>
+            </a>
+
+          </li>
+
+        </ul>
+
+        <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+          <ion-icon name="chevron-back"></ion-icon>
+        </button>
+
+        <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </button>
+
+        <a href="#reserva" class="hero-btn has-after">
+          <img src="./assets/images/hero-icon.png" width="48" height="48" alt="booking icon">
+
+          <span class="label-2 text-center span">Marcar Mesa</span>
+        </a>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVIÇO
+      -->
+
+      <section class="section service bg-black-10 text-center" aria-label="service">
+        <div class="container">
+
+          <p class="section-subtitle label-2">Qualidade máxima</p>
+
+          <h2 class="headline-1 section-title">Todas nossas opções</h2>
+
+          <p class="section-text">
+            contendo todas nossas opções, bebidas, lanches e petiscos, venha e prove nossas opções.
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/gallery1.jpeg" width="285" height="336" loading="lazy" alt="Breakfast"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="carrinho.html">Lanches</a>
+                  </h3>
+
+                  <a href="carrinho.html" class="btn-text hover-underline label-2">Vizualizar Menu</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/service-2.jpg" width="285" height="336" loading="lazy" alt="Appetizers"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="carrinho.html">Petiscos</a>
+                  </h3>
+
+                  <a href="carrinho.html" class="btn-text hover-underline label-2">Vizualizar Menu</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/service-3.jpg" width="285" height="336" loading="lazy" alt="Drinks"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="carrinho.html">Bebidas</a>
+                  </h3>
+
+                  <a href="carrinho.html" class="btn-text hover-underline label-2">Vizualizar Menu</a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <img src="./assets/images/shape-1.png" width="246" height="412" loading="lazy" alt="shape"
+            class="shape shape-1 move-anim">
+          <img src="./assets/images/shape-2.png" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SOBRE
+      -->
+
+      <section class="section about text-center" aria-labelledby="about-label" id="about">
+        <div class="container">
+
+          <div class="about-content">
+
+            <p class="label-2 section-subtitle" id="about-label">Nossa Historia</p>
+
+            <h2 class="headline-1 section-title">Toda Hamburgueria Tem Sua História</h2></h2>
+
+            <p class="section-text">
+              A Hamburgueria do Chef é uma empresa fundada em 1 de janeiro de 2023, com o objetivo de oferecer aos nossos clientes uma experiência gastronômica única e deliciosa. Nós acreditamos em ingredientes de alta qualidade e na criatividade na cozinha, e é por isso que nossos hambúrgueres são feitos com ingredientes frescos e selecionados com cuidado.
+              Nós nos esforçamos para ser a melhor hamburgueria da cidade, e nossa equipe de chefs talentosos trabalha arduamente para criar receitas inovadoras que vão além do tradicional hambúrguer. Além disso, oferecemos opções vegetarianas e veganas para agradar a todos os gostos e preferências.
+            </p>
+
+            <div class="contact-label">Faça Sua Ligação</div>
+
+            <a href="tel:+804001234567" class="body-1 contact-number hover-underline">+55 (51) 3489 4567</a>
+
+            <a href="#about" class="btn btn-primary">
+              <span class="text text-1">Ler Mais</span>
+
+              <span class="text text-2" aria-hidden="true">Ler Mais</span>
+            </a>
+
+          </div>
+
+          <figure class="about-banner">
+
+            <img src="./assets/images/about-banner.jpg" width="570" height="570" loading="lazy" alt="about banner"
+              class="w-100" data-parallax-item data-parallax-speed="1">
+
+            <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
+              <img src="./assets/images/about-abs-image.jpg" width="285" height="285" loading="lazy" alt=""
+                class="w-100">
+            </div>
+
+            <div class="abs-img abs-img-2 has-before">
+              <img src="./assets/images/badge-2.png" width="133" height="134" loading="lazy" alt="">
+            </div>
+
+          </figure>
+
+          <img src="./assets/images/shape-3.png" width="197" height="194" loading="lazy" alt="" class="shape">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #LANCHES ESPECIAIS
+      -->
+
+      <section class="special-dish text-center" aria-labelledby="dish-label">
+
+        <div class="special-dish-banner">
+          <img src="./assets/images/combo.jpeg" width="940" height="900" loading="lazy" alt="special dish"
+            class="img-cover">
+        </div>
+
+        <div class="special-dish-content bg-black-10">
+          <div class="container">
+
+            <img src="./assets/images/badge-1.png" width="28" height="41" loading="lazy" alt="badge" class="abs-img">
+
+            <p class="section-subtitle label-2">Combo Especial</p>
+
+            <h2 class="headline-1 section-title">Combo Do Chef</h2>
+
+            <p class="section-text">
+              Combo feito pelo chef, possuindo 2 hamburgueres de carne com o melhor preço que você ja viu! aproveite essa oferta
+            </p>
+
+            <div class="wrapper">
+              <del class="del body-3">R$40.00</del>
+
+              <span class="span body-1">R$20.00</span>
+            </div>
+
+            <a href="carrinho.html" class="btn btn-primary">
+              <span class="text text-1">Vizualizar Todo Menu</span>
+
+              <span class="text text-2" aria-hidden="true">Vizualizar Todo Menu</span>
+            </a>
+
+          </div>
+        </div>
+
+        <img src="./assets/images/shape-4.png" width="179" height="359" loading="lazy" alt="" class="shape shape-1">
+
+        <img src="./assets/images/shape-9.png" width="351" height="462" loading="lazy" alt="" class="shape shape-2">
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #MENU
+      -->
+
+      <section class="section menu" aria-label="menu-label" id="menu">
+        <div class="container">
+
+          <p class="section-subtitle text-center label-2">Seleção Especial</p>
+
+          <h2 class="headline-1 section-title text-center">Os Melhores</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/carne.jpg" width="100" height="100" loading="lazy" alt="Greek Salad"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Hambúrguer De Carne</a>
+                    </h3>
+
+                    <span class="badge label-1">Sensacional</span>
+
+                    <span class="span title-2">R$20.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Tomates, Pão, alface, carne, keetchup, maionese,queijo, cebola
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/vegano.jpg" width="100" height="100" loading="lazy" alt="Lasagne"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Hambúrguer Vegano</a>
+                    </h3>
+
+                    <span class="span title-2">R$30.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Carne Vegana, Tomate vegano, pão vegano, molho vegano, alface 
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/frango.jpg" width="100" height="100" loading="lazy" alt="Butternut Pumpkin"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Hambúrguer De Frango</a>
+                    </h3>
+
+                    <span class="span title-2">R$21,00</span></span>
+                    </span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Tomate, pão, frango, keetchup, alface, maionese, cebola
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/artesanal.jpg" width="100" height="100" loading="lazy" alt="Tokusen Wagyu"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Hambúrguer Artesanal</a>
+                    </h3>
+
+                    <span class="badge label-1">Novo</span>
+
+                    <span class="span title-2">R$25.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Carne misturada, molho forte, alface e tomate 
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/bacon.jpg" width="100" height="100" loading="lazy" alt="Olivas Rellenas"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Hambúrguer De Bacon</a>
+                    </h3>
+
+                    <span class="span title-2">R$ 23,00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Bacon, pao, keethup, molho especial, e queijo.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/duplo.jpg" width="100" height="100" loading="lazy" alt="Opu Fish"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Hambúrguer Duplo</a>
+                    </h3>
+
+                    <span class="span title-2">R$23.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Carne dupla, queijo duplo, alfece, tomate, cebola, keetchup e mostarda.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <p class="menu-text text-center">
+            Melhores preços<span class="span">18:00</span> até <span class="span">20:00</span>
+          </p>
+
+          <a href="carrinho.html" class="btn btn-primary">
+            <span class="text text-1">Ver Todo Menu</span>
+
+            <span class="text text-2" aria-hidden="true">Ver Todo Menu
+             </span>
+          </a>
+
+          <img src="./assets/images/shape-5.png" width="921" height="1036" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+          <img src="./assets/images/shape-6.png" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-3 move-anim">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #TESTIMONIALS
+      -->
+
+      <section class="section testi text-center has-bg-image"
+        style="background-image: url('./assets/images/testimonial-bg.jpg')" aria-label="testimonials">
+        <div class="container">
+
+          <div class="quote">”</div>
+
+          <p class="headline-2 testi-text">
+            Eu queria agradecer a hamburgueria do chef pelos seus deliciosos hamburgueres e seu excelente atendimento, muito obrigado!
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          <div class="profile">
+            <img src="./assets/images/testi-avatar.jpg" width="100" height="100" loading="lazy" alt="Sam Jhonson"
+              class="img">
+
+            <p class="label-2 profile-name">Sam Jhonson</p>
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #RESERVAÇÃO
+      -->
+
+      <section class="reservation" id="reserva">
+        <div class="container">
+
+          <div class="form reservation-form bg-black-10">
+
+            <form action="reserva.php" class="form-left" method="POST">
+
+              <h2 class="headline-1 text-center">Faça Sua Reserva</h2>
+
+              <p class="form-text text-center">
+                Ligue para<a href="tel:+55513123456" class="link">+55-51-34893456</a>
+                ou preencha o formulário 
+              </p>
+
+              <div class="input-wrapper">
+                <input type="text" id="name" name="name" placeholder="Seu nome" required="required" autocomplete="off" class="input-field">
+
+                <input type="tel" id="phone" name="phone" required="required" placeholder="Seu telefone"
+                  autocomplete="off" class="input-field">
+              </div>
+
+              <div class="input-wrapper">
+
+                <div class="icon-wrapper">
+                  <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                  <select name="person" required="required" id="person" class="input-field">
+                    <option value="1-person">1 Pessoa</option>
+                    <option value="2-person">2 Pessoas</option>
+                    <option value="3-person">3 Pessoas</option>
+                    <option value="4-person">4 Pessoas</option>
+                    <option value="5-person">5 Pessoas</option>
+                    <option value="6-person">6 Pessoas</option>
+                    <option value="7-person">7 Pessoas</option>
+                  </select>
+
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="icon-wrapper">
+                  <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
+
+                  <input type="date" name="reservation-date" required="required" id="reservation-date" class="input-field">
+
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="icon-wrapper" id="horario">
+                  <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                  <select name="horario" id="horario" required="required" class="input-field">
+                    <option value="08:00am">18:00</option>
+                    <option value="09:00am">19:00</option>
+                    <option value="010:00am">20:00</option>
+                    <option value="011:00am">21:00</option>
+                    <option value="012:00am">22:00 
+                   </option>
+                    <option value="01:00pm">23:00</option>
+                    <option value="02:00pm">19:30
+                   </option>
+                    <option value="03:00pm">20:30</option>
+                    <option value="04:00pm">21:30</option>
+                    <option value="05:00pm">22:30</option>
+                    <option value="06:00pm">18:30</option>
+                    <option value="07:00pm">19:15
+                    </option>
+                    <option value="08:00pm">20:15
+                    </option>
+                    <option value="09:00pm">21:15</option>
+                    <option value="10:00pm">22:15</option>
+                  </select>
+
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+
+              </div>
+
+              <textarea name="message" id="message"
+              placeholder="Deixe Sua Mensagem" autocomplete="off" class="input-field"></textarea>
+
+              <button type="submit" class="btn btn-secondary">
+                <span class="text text-1">Marcar mesa</span>
+
+                <span class="text text-2" aria-hidden="true">Marcar mesa</span>
+              </button>
+
+            </form>
+
+            <div class="form-right text-center" style="background-image: url('./assets/images/form-pattern.png')">
+
+              <h2 class="headline-1 text-center">Nos faça contato</h2>
+
+              <p class="contact-label">Informações</p>
+
+              <a href="tel:+88123123456" class="body-1 contact-number hover-underline">+55-51-34893456</a>
+
+              <div class="separator"></div>
+
+              <p class="contact-label">Localização</p>
+
+              <address class="body-4">
+                 Hamburgueria Do Chef Delicias da Cidade, <br>
+                Gravatai, RS
+              </address>
+
+              <p class="contact-label">Abertos as</p>
+
+              <p class="body-4">
+                Segundas as Sábados<br>
+                18h00 - 23h30
+              </p>
+
+              <p class="contact-label">Horário especial de </p>
+
+              <p class="body-4">
+                Sexta até sábado <br>
+                16h00 - 00h00
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #OUTRAS INFORMAÇÕES
+      -->
+
+      <section class="section features text-center" aria-label="features">
+        <div class="container">
+
+          <p class="section-subtitle label-2">Informações</p>
+
+          <h2 class="headline-1 section-title">Outras Informações</h2>
+
+          <ul class="grid-list">
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-1.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Lanches Higiênicos</h3>
+
+                <p class="label-1 card-text">Todos os nossos lanches contém verduras frescas.</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-2.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Atendimento Qualificado</h3>
+
+                <p class="label-1 card-text">Entregas e serviços de qualidade por todos os nossos profissionais.</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-3.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Chefs Qualificados</h3>
+
+                <p class="label-1 card-text">Os melhores chefs de todo o mundo .</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-4.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Eventos e festas</h3>
+
+                <p class="label-1 card-text">Eventos alguns meses e marque suas festas especiais.</p>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <img src="./assets/images/shape-7.png" width="208" height="178" loading="lazy" alt="shape"
+            class="shape shape-1">
+
+          <img src="./assets/images/shape-8.png" width="120" height="115" loading="lazy" alt="shape"
+            class="shape shape-2">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #EVENTOS
+      -->
+
+      <section class="section event bg-black-10" aria-label="event">
+        <div class="container">
+
+          <p class="section-subtitle label-2 text-center">Eventos</p>
+
+          <h2 class="section-title headline-1 text-center">Eventos Marcados</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./assets/images/eventos1.jpeg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2022-09-15">15/10/2023</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Lanches De Graça</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    Lanches de graça,SIM é isso, aproveite bem essa data.
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./assets/images/eventos2.jpeg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2022-09-08">Feriados</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Festas em feriados</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    Sempre convidamos bandas em feriados para nossos clientes.
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./assets/images/event-3.jpg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2022-09-03">Todas as quartas</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Lanches Especiais</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    Lanches especiais todas as quartas feiras.
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="carrinho.html" class="btn btn-primary">
+            <span class="text text-1">Vizualizar Menu</span>
+
+            <span class="text text-2" aria-hidden="true">Vizualizar Menu</span>
+          </a>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #INFORMÇÕES
+  -->
+
+  <footer class="footer section has-bg-image text-center"
+    style="background-image: url('./assets/images/fooder-bg.jpg')">
+    <div class="container">
+
+      <div class="footer-top grid-list">
+
+        <div class="footer-brand has-before has-after">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.jpeg" width="160" height="50" loading="lazy" alt="grilli home">
+          </a>
+
+          <address class="body-4">
+            Hamburgueria Do Chef Rua dos anjos 1570, Gravataí 
+          </address>
+
+          <a href="mailto:booking@grilli.com" class="body-4 contact-link">hamburgueria dochef@gmail.com</a>
+
+          <a href="tel:+5551123456" class="body-4 contact-link">Telefone: +55-51-3123456</a>
+
+          <p class="body-4">
+            Abre : 18:00 - 23:30
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          <p class="title-1">Lanches novos sempre</p>
+
+          <p class="label-1">
+            Se cadastre<span class="span">.</span>
+          </p>
+
+          <form action="" class="input-wrapper">
+            <div class="icon-wrapper">
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+              <input type="email" name="email_address" placeholder="Seu email" autocomplete="off" class="input-field">
+            </div>
+            
+            <button type="submit" class="btn btn-secondary">
+              <span class="text text-1" >Se Cadastre</span>
+
+              <span class="text text-2" aria-hidden="true">Se Cadastre</span>
+            </button>
+          </form>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#home" class="label-2 footer-link hover-underline">Home</a>
+          </li>
+
+          <li>
+            <a href="#menu" class="label-2 footer-link hover-underline">Menu</a>
+          </li>
+
+          <li>
+            <a href="#about" class="label-2 footer-link hover-underline">Sobre Nós</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Informações</a>
+          </li>
+
+          <li>
+            <a href="#reserva" class="label-2 footer-link hover-underline">Contato</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="https://pt-br.facebook.com/" class="label-2 footer-link hover-underline">Facebook</a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/" class="label-2 footer-link hover-underline">Instagram</a>
+          </li>
+
+          <li>
+            <a href="https://twitter.com/login?lang=pt" class="label-2 footer-link hover-underline">Twitter</a>
+          </li>
+
+          <li>
+            <a href="https://www.youtube.com/" class="label-2 footer-link hover-underline">Youtube</a>
+          </li>
+
+          <li>
+            <a href="https://www.google.com/maps/@-29.9325742,-51.001905,15z" class="label-2 footer-link hover-underline">Google Map</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          &copy; 2023 Chef. <a href="https://github.com/codewithsadee"
+            target="_blank" class="link"></a>
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #VOLTAR AO TOP
+  -->
+
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - LINK SCRIPT
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
