@@ -8,7 +8,7 @@ Este é um projeto desenvolvido em HTML, CSS e JavaScript que simula o site de u
 ## 🚀 Funcionalidades
 - Página inicial apresentando a hamburgueria.  
 - Sistema de login e cadastro de usuários.  
-- **Carrinho de compras onde o cliente pode adicionar, remover e visualizar os hambúrgueres escolhidos.  
+- Carrinho de compras onde o cliente pode adicionar, remover e visualizar os hambúrgueres escolhidos.  
 - Design responsivo e simples para fácil navegação.  
 
 ---
